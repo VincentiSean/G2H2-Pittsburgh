@@ -3,7 +3,11 @@ html, body{
     margin:0;
     padding:0;
     min-width: 1140px;
+<<<<<<< HEAD
     background-color: #d3d3d3;
+=======
+    background-color: #FBFBFB;
+>>>>>>> origin/master
 }
 
 .justify-start {
@@ -13,10 +17,18 @@ html, body{
 	margin-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+#light-text {
+	font-weight: lighter;
+}
+
+>>>>>>> origin/master
 .header {
 	background: 
     
     linear-gradient(
+<<<<<<< HEAD
       rgba(255, 0, 0, 0.45), 
       rgba(255, 0, 0, 0.45)
     ),
@@ -24,6 +36,16 @@ html, body{
     
 	background-repeat: no-repeat;
 	background-size: 100%;
+=======
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("img/skyline.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+>>>>>>> origin/master
 	height: 475px;
 	width: 100%;
 }
@@ -36,6 +58,18 @@ html, body{
 	width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.navigation ul {
+	list-style-type: none;
+}
+
+.navigation li {
+	float: left;
+	margin-top: 20px;
+}
+
+>>>>>>> origin/master
 .navigation a {
 	color: white;
 	font-weight: lighter;
@@ -45,6 +79,22 @@ html, body{
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+.navigation a:visited {
+	color: white;
+}
+
+.navigation a:hover {
+	color: #FF4040;
+}
+
+.navigation a:active {
+	color: #FF4040;
+}
+
+
+>>>>>>> origin/master
 .blurb {
 	color: white;
 	font-size: 48px;
@@ -66,6 +116,10 @@ html, body{
 .sub-description {
 	color: white;
 	font-size: 18px;
+<<<<<<< HEAD
+=======
+	letter-spacing: 1.5px;
+>>>>>>> origin/master
 	text-align: center;
 }
 
@@ -89,6 +143,7 @@ svg {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
+<<<<<<< HEAD
 	font-size: 1.25em;
 	outline: none;
 	border: 0;
@@ -96,14 +151,132 @@ svg {
 
 #send {
 	background-color: red;
+=======
+	letter-spacing: 1.5px;
+	font-size: 1.25em;
+	outline: none;
+	border: 0;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+#send {
+	background-color: #FF4040;
+>>>>>>> origin/master
 	float: left;
 	width: 10%;
 	height: 62px;
 	border: 0;
 	cursor: pointer;
 	outline: none;
+<<<<<<< HEAD
 }
 
+=======
+	box-shadow: 0px 1px 1px 1px #888888;
+}
+
+.event-wrapper {
+	height: 600px;
+	margin-top: 200px;
+}
+
+.event {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 75px;
+	width: 800px; 
+	display: block;
+}
+
+.event-div {
+	display: inline-block;
+	width: 800px;
+	margin-left: 50px;
+}
+
+.date {
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -20px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+
+.event-pic {
+	border-radius: 3px;
+	width: 225px;
+	height: 225px;
+	margin-top: -15px;
+	display: inline;
+	float: left;
+}
+
+.event-info {
+	display: inline;
+	font-size: 16px;
+	font-weight: normal;
+	float: left;
+	height: 200px;
+	width: 500px;
+	margin-top: 5px;
+	margin-left: 28px;
+}
+
+.time-specials {
+	display: inline-flex;
+	font-weight: bold;
+	height: 25%;
+	width: 100%;
+}
+
+.event-location {
+	display: inline-block;
+	color: #FF4040;
+	font-size: 48px;
+	font-weight: lighter;
+	margin-top: -20px;
+	margin-bottom: 0px;
+}
+
+.event-location a {
+	color: #FF4040;
+	text-decoration: none;
+}
+
+.num {
+	margin-right: 10px;
+	margin-bottom: 0px;
+	font-size: 48px;
+	font-weight: bold;
+	width: 50px;
+	text-align: center;
+}
+
+.day-month-fix {
+	display: inline-block;
+	float: right; 
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 8px;
+	letter-spacing: 1.2px;
+}
+
+.day {
+	color: #737373;
+	margin-top: -50px;
+	margin-bottom: -20px;
+}
+
+.info {
+	display: inline-flex;
+	font-size: 20px;
+	width: 500px;
+}
+>>>>>>> origin/master
 
 
 
